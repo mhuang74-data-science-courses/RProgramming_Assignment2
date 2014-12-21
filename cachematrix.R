@@ -1,7 +1,7 @@
-## Provides functions to provide cached version of solve() which calculates inverse of matrix
+## Functions to provide cached version of solve(), which calculates inverse of matrix
 ## 
 
-## Creates wrapper matrix which can be used by cacheSolve() to cache inversion calculation
+## Creates wrapper matrix which can be used by cacheSolve() to cache matrix inversion calculation
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
